@@ -4,12 +4,8 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+I am currently about to finish an M.Sc. in Computational Physics at Stockholm University and KTH in Stockholm, Sweden. Also, I will be working as Student Developer at Google Summer of Code this summer of 2021 in a NumFOCUS project. 
 
-### More Information
+### Contact
 
-A place to include any other types of information that you'd like to include about yourself.
-
-### Contact me
-
-[email@domain.com](mailto:email@domain.com)
+[pau.riera.p@gmail.com](mailto:pau.riera.p@gmail.com)
