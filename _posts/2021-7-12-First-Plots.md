@@ -3,7 +3,9 @@ layout: post
 title: Plotting of scalar fields on a grid
 ---
 
-After a period of getting to know [Makie](https://github.com/JuliaPlots/Makie.jl) and trying to find the best approach for [Gridap](https://github.com/gridap) grids, we came up with a suitable way of plotting simplexified (i.e. made up by triangles) grids. Moreover, not only did we implement the recipes ```faces``` and ```edges``` but also ```vertices```, letting us plot something like
+After a period of getting to know [Makie](https://github.com/JuliaPlots/Makie.jl) and trying to find the best approach for [Gridap](https://github.com/gridap) grids, we came up with a suitable way of plotting simplexified (i.e. made up by triangles) grids. 
+
+Moreover, not only did we implement the recipes ```faces``` and ```edges``` but also ```vertices```, letting us plot something like
 ```julia
 # Create our square grid made up by triangles (or elements):
 
