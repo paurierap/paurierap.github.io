@@ -13,7 +13,7 @@ model = CartesianDiscreteModel((0,1,0,1),(5,5)) |> simplexify
 grid = get_grid(model)
 
 # Plot faces, edges and vertices:
-fig, ax = faces(grid, color=:lightseagreen)
+fig, ax = faces(grid, color=:lightseagreen, shading=true)
 edges!(ax, grid, color=:black, linestyle=:dash, linewidth=2.5)
 vertices!(ax, grid, color=:red, marker=:diamond, markersize=15)
 fig
@@ -30,7 +30,7 @@ model = CartesianDiscreteModel((0,1,0,1,0,1),(1,1,1)) |> simplexify
 grid = get_grid(model)
 
 # Plot faces, edges and vertices:
-fig, ax = faces(grid, color=:lightseagreen)
+fig, ax = faces(grid, color=:lightseagreen, shading=true)
 edges!(ax, grid, color=:black)
 vertices!(ax, grid, color=:red)
 fig
