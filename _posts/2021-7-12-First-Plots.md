@@ -22,7 +22,7 @@ which will return the following figure
 
 ![Fig1](https://user-images.githubusercontent.com/64323465/127524921-31b18963-4e93-4bd6-bd1b-42d6459213a9.png)
 
-We note here that ```faces``` returns a tuple of objects, those being a ```Figure``` and an ```Axis```. We make use of the former to plot several objects on top of each other, for example lines and dots over a painted surface. Such behaviour can be extended to 3D, like
+We note here that ```faces``` returns a tuple of objects, those being a ```Figure``` and an ```Axis```. By making use of the former, we may plot several objects on top of each other, for example lines and dots over a painted surface. Such behaviour can be extended to 3D, like
 ```julia
 # Create our square grid made up by triangles (or elements):
 
