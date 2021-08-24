@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Summary of GridapMakie.jl capabilities and end of GSoC 2021
+title: Summary of GridapMakie.jl capabilities
 ---
 
 Finally, two and a half after the beginning of GSoC 2021, we are almost ready to wrap up! Last week we introduced some important changes to our code, refactoring the way GridapMakie.jl calls the plotting functions. 
